@@ -1,4 +1,4 @@
-package linxiang.com;
+package linxiang.com.polymorphism;
 
 import linxiang.com.logger.Logger;
 

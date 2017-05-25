@@ -1,26 +1,24 @@
-package linxiang.com;
+package linxiang.com.polymorphism;
 
 import linxiang.com.logger.Logger;
-
-import static linxiang.com.Sandwich.TAG;
 
 /**
  * Created by liulinxiang on 2017/5/25.
  */
 class Meal{
     Meal(){
-        Logger.d(TAG,"Meal()");}
+        Logger.d(Sandwich.TAG,"Meal()");}
 }
 
 class Lunch extends Meal{
     Lunch(){
-        Logger.d(TAG,"Lunch()");
+        Logger.d(Sandwich.TAG,"Lunch()");
     }
 }
 
 class PortableLunch extends Lunch{
     PortableLunch(){
-        Logger.d(TAG,"PortableLunch()");
+        Logger.d(Sandwich.TAG,"PortableLunch()");
     }
 }
 
